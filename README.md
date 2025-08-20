@@ -88,8 +88,8 @@ By the end of the project, students will:
 **Milestone 1**
 
 ```
-o Week 1 : Project Setup & Dataset Understanding
-o Load data, explore feature distribution, map locations.
+* Week 1 : Project Setup & Dataset Understanding
+** Load data, explore feature distribution, map locations.
 o Week 2 : Preprocessing & Feature Engineering
 o Handle missing values, normalize and create new features.
 ```
