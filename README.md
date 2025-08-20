@@ -13,7 +13,7 @@ response, and awareness campaigns.
 **Urban Risk Assessment**
 
 ```
- Description : Authorities can predict the level of impact an earthquake may cause in populated regions
+* Description : Authorities can predict the level of impact an earthquake may cause in populated regions
 based on historical data.
  Example : Predict which regions are at higher risk during a 5.5 magnitude earthquake using location and
 soil type.
