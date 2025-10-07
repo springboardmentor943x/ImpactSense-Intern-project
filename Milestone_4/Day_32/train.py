@@ -7,7 +7,7 @@ from sklearn.metrics import mean_squared_error, r2_score
 import numpy as np
 
 # Load preprocessed data with one-hot encoded columns
-df = pd.read_csv("data/processed_earthquake_data.csv")
+df = pd.read_csv("data/processed_trained_data.csv")
 
 # Select feature columns (original numeric + one-hot encoded categorical)
 features = [
@@ -16,7 +16,6 @@ features = [
     "Depth",
     "Magnitude",
     "Root Mean Square",
-    "Magnitude Type_MB",
     "Magnitude Type_MD",
     "Magnitude Type_MH",
     "Magnitude Type_ML",
@@ -26,7 +25,6 @@ features = [
     "Magnitude Type_MWC",
     "Magnitude Type_MWR",
     "Magnitude Type_MWW",
-    "Status_Automatic",
     "Status_Reviewed"
 ]
 
