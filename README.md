@@ -18,18 +18,21 @@ based on historical data.
 * Example : Predict which regions are at higher risk during a 5.5 magnitude earthquake using location and
 soil type.
 ```
+
 **Infrastructure Planning**
 
 ```
 * Description : City planners can use the model to guide construction policies in high-risk zones.
 * Example : Predict risk level based on soil density and proximity to fault lines.
 ```
+
 **Government Disaster Response**
 
 ```
 * Description : Emergency teams can prioritize regions for response and rescue based on expected impact.
 * Example : Rank areas for aid delivery after an earthquake hits, using model predictions.
 ```
+
 **Outcomes:**
 
 By the end of the project, students will:
@@ -41,13 +44,14 @@ By the end of the project, students will:
 * Optionally deploy the model using a simple user interface.
 * Document the model’s performance and results with visualizations.
 ```
+
 ## Dataset:
 
 **Source:** Kaggle
 
 ## System Architecture
-![System Architecture](images/system_architecture.png)
 
+![System Architecture](images/system_architecture.png)
 
 **Modules to Be Implemented:**
 
@@ -57,6 +61,7 @@ By the end of the project, students will:
 * Load data, remove duplicates, handle missing values
 * Visualize key variables: depth, magnitude, latitude, longitude
 ```
+
 **2. Feature Engineering**
 
 ```
@@ -71,12 +76,14 @@ By the end of the project, students will:
 * Train regression/classification models: Logistic Regression, Random Forest, XGBoost
 * Try advanced models for non-linear features
 ```
+
 **4. Model Evaluation**
 
 ```
 * Use accuracy, MAE/MSE (for regression), F1-score (for classification)
 * Generate confusion matrix, feature importance chart
 ```
+
 **5. User Interface (Optional)**
 
 ```
@@ -84,6 +91,7 @@ By the end of the project, students will:
 * Input: magnitude, depth, region, soil type
 * Output: impact prediction or risk category
 ```
+
 ## Week-wise module implementation and high-level requirements with output screenshots
 
 **Milestone 1**
@@ -94,6 +102,7 @@ By the end of the project, students will:
 - Week 2: Preprocessing & Feature Engineering
   - Handle missing values, normalize and create new features.
 ```
+
 **Milestone 2**
 
 ```
@@ -104,6 +113,7 @@ By the end of the project, students will:
   - Random Forest, Gradient Boosting
   - Cross-validation, hyperparameter tuning.
 ```
+
 **Milestone 3**
 
 ```
@@ -113,8 +123,8 @@ By the end of the project, students will:
 - Week 6 : Impact Predictor UI Prototype
   - Simple web form, input parameters → impact score or risk level.
 ```
-**Milestone 4**
 
+**Milestone 4**
 
 ```
 - Week 7 : Testing & Improvements
@@ -122,6 +132,41 @@ By the end of the project, students will:
 - Week 8 : Final Report & Presentation
   - Charts, visuals, final results, slides and PDF.
 ```
+
+## Milestone-wise Python Level and Topics
+
+**Milestone 1 (Weeks 1–2)**
+
+```
+Python Level: Beginner → Intermediate
+Topics: Python basics, Jupyter/Notebooks, file I/O, functions, NumPy, Pandas,
+        data cleaning, EDA, Matplotlib/Seaborn visualizations
+```
+
+**Milestone 2 (Weeks 3–4)**
+
+```
+Python Level: Intermediate
+Topics: scikit-learn model training, train/validation splits, cross-validation,
+        hyperparameter tuning, pipelines, reusable modules, metrics logging
+```
+
+**Milestone 3 (Weeks 5–6)**
+
+```
+Python Level: Intermediate → Advanced
+Topics: model evaluation, confusion matrix/MAE/MSE plots, feature importance,
+        SHAP/explainability, simple UI with Streamlit or FastAPI, packaging
+```
+
+**Milestone 4 (Weeks 7–8)**
+
+```
+Python Level: Advanced / Capstone
+Topics: testing (pytest), performance/optimization, basic logging, error handling,
+        refactoring for readability, final reporting & presentation
+```
+
 ## Evaluation Criteria
 
 **Completion of Milestones:**
@@ -132,6 +177,7 @@ By the end of the project, students will:
 * UI integration (optional)
 * Documentation and final presentation
 ```
+
 **Quality of Predictions:**
 
 ```
@@ -139,6 +185,7 @@ By the end of the project, students will:
 * Sensitivity to changes in key inputs
 * Realism of the predicted output
 ```
+
 **Clarity and Presentation:**
 
 ```
@@ -147,6 +194,7 @@ By the end of the project, students will:
 * Visual clarity of graphs and metrics
 * Good explanation during demo
 ```
+
 ## Model Performance – Quantitative Metrics
 
 **Classification Metrics:**
@@ -158,6 +206,7 @@ By the end of the project, students will:
 * F1-Score : Balance between precision and recall
 * Confusion Matrix : True vs. predicted classes
 ```
+
 **Regression Metrics (if predicting damage cost or scale):**
 
 ```
@@ -168,12 +217,14 @@ By the end of the project, students will:
 * MSE (Mean Squared Error)
 * R² Score (Coefficient of Determination)
 ```
+
 **Feature Importance:**
 
 ```
 * Highlight which features (depth, location, magnitude) influenced predictions
 * Use SHAP or feature importance chart
 ```
+
 **Training Curves:**
 
 ```
@@ -181,3 +232,18 @@ By the end of the project, students will:
 * Identify overfitting or underfitting
 ```
 
+## Student Intern
+
+```
+Name  : Sarthak Tulsidas Patil
+Email : sarthakpatil.ug@gmail.com
+```
+## Mentor
+
+```
+Name: Satya Sai Esaparu
+Email: springboardmentor943x@gmail.com
+```
+
+### Made for Infosys Springboard Internship
+![img](https://cdna.artstation.com/p/assets/images/images/049/456/834/original/moises-dimas-night-of-falling-stars-hd-2-wallpaper.gif?1652540104)
