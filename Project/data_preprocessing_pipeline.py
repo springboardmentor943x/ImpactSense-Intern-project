@@ -83,5 +83,5 @@ def create_preprocessing_pipeline():
 
 pipeline = create_preprocessing_pipeline()
 
-# # Save pipeline
-# joblib.dump(pipeline, 'models/data_preprocessing_pipeline.pkl')
+# Save pipeline
+joblib.dump(pipeline, 'models/data_preprocessing_pipeline.pkl')

@@ -181,3 +181,51 @@ By the end of the project, students will:
 * Identify overfitting or underfitting
 ```
 
+## 🚀 Quick Start: ImpactSenseAI Project
+
+Follow these simple steps to set up and test the project:
+
+1. **Clone the Repository**
+   - Open your terminal or command prompt.
+   - Run the command below to clone the project repository:
+     ```
+     git clone https://github.com/impactSense-infosys-intern-project/ImpactSense-Intern-project.git
+     ```
+   - Change directory to the project folder:
+     ```
+     cd ImpactSense-Intern-project/Project
+     ```
+
+2. **Create and Activate Python Virtual Environment**
+   - Run the following command to create a virtual environment named `venv`:
+     ```
+     python -m venv venv
+     ```
+   - Activate the virtual environment:
+     - On Linux/macOS:
+       ```
+       source venv/bin/activate
+       ```
+     - On Windows:
+       ```
+       venv\Scripts\activate
+       ```
+
+3. **Install Required Dependencies**
+   - Install the required Python packages using:
+     ```
+     pip install -r requirements.txt
+     ```
+
+4. **Start Streamlit Dashboard**
+   - Launch the interactive web dashboard for predictions and alerts:
+     ```
+     streamlit run app.py
+     ```
+
+7. **Upload Test Data**
+   - Use the Streamlit app interface to upload `test_database` files located in:
+     ```
+     data/
+     ```
+   - View model predictions and alert zones on the dashboard.
